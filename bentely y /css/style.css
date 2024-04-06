@@ -1,0 +1,287 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.web-body{
+    width: 100%;
+    height: inherit;
+    background-color:white;
+}
+.header{
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+    display: flex;
+    
+}
+.header-bentley-logo{
+    height: 100%;
+    width:12% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-bentley-logo img{
+    width: 60%;
+    height:45%;
+    
+}
+.header-show{
+
+    height: 100%;
+    width:25% ;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 9rem;
+    color:  #5d5b5b;
+}
+h4{
+    margin: 0;
+}
+.header-connect{
+    height: 100%;
+    width:40% ;
+    
+    color:  #6b6a6a;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-left: 6.2rem;
+   padding-right: 2.9rem;
+
+}
+#book-test-drive{
+    padding-left : 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 00.4rem;
+
+    color: #fff;
+    background-color: #335b4c;
+}
+.cars-photos{
+    width: 100%;
+    
+}
+.cars-photos img{
+    width: 100%;
+}
+.cars-detailes{
+    width: 100%;
+    height: 14rem;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:  #727376;
+}
+h2{
+    margin: 0;
+}
+.cars-more{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.cars-more-1{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    text-align: center;
+    border: solid #335b4c 0.2rem;
+
+    
+    
+    background-color: #335b4c ;
+    color: #fff;
+    margin: 0.4rem;
+    font-size: 0.8rem;
+
+}
+.cars-more-2{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #fff ;
+    color: #335b4c;
+    border: solid #335b4c 0.2rem;
+    margin: 0.4rem;
+
+}
+.buy-covers{
+    width: 100%;
+    display: flex;
+    height: 30rem;
+}
+.ownership{
+    width: 50%;
+    height: inherit;
+    background-image: url(pictures/Bentley-man-and-woman-by-Continental-GT-Convertible-1024x512.jpg&quot);
+    background-position: center;
+    
+}
+.ownership-padding{
+    width: 8rem;
+    display: flex;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.2 rem;
+    padding-right: 0.2 rem;
+    text-align: center;
+    
+    
+}
+
+#ownership-bg{
+    margin: 0;
+   
+
+    color: black;
+    
+    
+   
+}
+
+.preowned{
+    width: 50%;
+    height: inherit;
+    background-image: url(pictures/Certified-by-Bentley-pre-owned-2020-1024x512.jpg&quot);
+    background-position: center;
+    
+}
+.preowned-padding{
+    width: 8rem;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+}
+.buy-detailes{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+}
+.newsletter{
+width: 33.33%;
+height: inherit;
+background-color: #d8d9dc;
+color:  #335b4c;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+border: solid 0.1px #aeafb1;
+}
+p{
+    margin: 0;
+}
+.locatedealer{
+    width: 33.33%;
+    height: inherit;
+    background-color: #d8d9dc;
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+color:  #335b4c;
+border: solid 0.1px #aeafb1;
+}
+.configuration{
+    width: 33.33%;
+    height: inherit;
+    background-color: #d8d9dc;
+    display: flex;
+align-items: center;
+flex-direction: column;
+color:  #335b4c;
+justify-content: space-evenly;
+border: solid 0.1px #aeafb1;
+}
+.footer{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom:  solid 0.1px #aeafb1;
+}
+.footer-description{
+    width: 100%;
+    height: 14rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fooder-div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.footer-description-head{
+    margin-top: 1rem;
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    color:  #727376;
+}
+   
+.footer-description-body{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    color:  #727376;
+    
+
+}
+.footer-description-body p{
+    margin: 0.3rem;
+}
+.social-media{
+    width: 45%;
+    height: 6rem;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.social-media img{
+    width: 2rem;
+    height: 2rem;
+
+}
+.copyright-detailes{
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact{
+    display: flex;
+    color:  #727376;
+
+}
+.contact p{
+    margin: 2rem;
+}
+.copyright-description{
+    color:  #727376;
+    line-height: 2rem;
+}
